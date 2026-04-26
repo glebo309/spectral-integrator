@@ -2,6 +2,8 @@
 
 CLI tool for calculating peak areas in spectral data (UV-Vis, absorbance) with baseline correction.
 
+![Example output](resources/screenshot.png)
+
 ## What it does
 
 Reads raw spectrometer output files (CSV), identifies spectral data columns automatically, and calculates the baseline-corrected integral between two wavelength bounds using the trapezoidal rule. The baseline is a straight line connecting the two endpoints.

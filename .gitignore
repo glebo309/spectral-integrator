@@ -23,4 +23,5 @@ Thumbs.db
 *.swo
 
 # Generated output
-*.png
+output_*.png
+!resources/*.png
